@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "date": "2024-08-17",
+    "venue": "Bröllopsgalan Storsjön",
+    "location": "Östersund",
+    "type": "wedding"
+  },
+  {
+    "id": 2,
+    "date": "2024-03-14",
+    "venue": "Företagsfest Sthlm",
+    "location": "Stockholm",
+    "type": "corporate"
+  },
+  {
+    "id": 3,
+    "date": "2023-12-09",
+    "venue": "Julkonsert Münchenbryggeriet",
+    "location": "Stockholm",
+    "type": "show"
+  },
+  {
+    "id": 4,
+    "date": "2023-06-24",
+    "venue": "Midsommargalan",
+    "location": "Göteborg",
+    "type": "show"
+  },
+  {
+    "id": 5,
+    "date": "2023-04-29",
+    "venue": "Bröllop Österlen",
+    "location": "Skåne",
+    "type": "wedding"
+  },
+  {
+    "id": 6,
+    "date": "2022-09-17",
+    "venue": "Kick-off event",
+    "location": "Malmö",
+    "type": "corporate"
+  }
+]

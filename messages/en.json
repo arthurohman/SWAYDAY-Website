@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "book": "Book us"
+  },
+  "hero": {
+    "tagline": "We play loud. We play live.",
+    "cta": "Book us"
+  },
+  "about": {
+    "title": "About us",
+    "p1": "SWAYDAY is a modern live band delivering high-energy shows covering everything from pop classics to the latest chart hits. We create an atmosphere that keeps your guests on the dance floor all night.",
+    "p2": "With a wide repertoire and a passion for music, we guarantee an experience your guests will remember long after the last song — whether it's an intimate wedding or a big stage."
+  },
+  "spotify": {
+    "title": "Listen to us"
+  },
+  "socials": {
+    "title": "Follow us",
+    "subtitle": "Stay updated with our latest news and upcoming shows"
+  },
+  "book": {
+    "eyebrow": "Book us",
+    "hero_title": "Book SWAYDAY",
+    "hero_subtitle": "We play weddings, corporate events, and live concerts. Get in touch and let us make your evening unforgettable.",
+    "wedding_title": "Weddings",
+    "wedding_desc": "Make your big day unforgettable with live music that sets the mood — from the ceremony to late-night dancing.",
+    "corporate_title": "Corporate Events",
+    "corporate_desc": "Professional live entertainment that elevates your company party, after-work, or gala evening to the next level.",
+    "show_title": "Concerts",
+    "show_desc": "High-energy live shows with the full band. Perfect for festivals, pubs, and event venues.",
+    "events_title": "Past performances",
+    "contact_title": "Get in touch",
+    "contact_subtitle": "Interested in booking us? We reply quickly.",
+    "contact_email": "Send an email",
+    "contact_instagram": "Instagram",
+    "contact_facebook": "Facebook",
+    "videos_eyebrow": "Watch us live",
+    "videos_title": "Clips from the stage"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

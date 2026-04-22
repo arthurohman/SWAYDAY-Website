@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Hem",
+    "book": "Boka oss"
+  },
+  "hero": {
+    "tagline": "Vi spelar högt. Vi spelar live.",
+    "cta": "Boka oss"
+  },
+  "about": {
+    "title": "Om oss",
+    "p1": "SWAYDAY är ett modernt liveband som levererar energifyllda shower med allt från popklassiker till senaste hitlåtarna. Vi skapar en stämning som håller dina gäster på dansgolvet hela kvällen.",
+    "p2": "Med en bred repertoar och passionen för musik garanterar vi en upplevelse som dina gäster sent kommer att glömma — vare sig det gäller ett intimt bröllop eller en stor scen."
+  },
+  "spotify": {
+    "title": "Lyssna på oss"
+  },
+  "socials": {
+    "title": "Följ oss",
+    "subtitle": "Håll dig uppdaterad med våra senaste nyheter och spelningar"
+  },
+  "book": {
+    "eyebrow": "Boka oss",
+    "hero_title": "Boka SWAYDAY",
+    "hero_subtitle": "Vi spelar på bröllop, företagsevent och konserter. Hör av dig och låt oss göra din kväll oförglömlig.",
+    "wedding_title": "Bröllop",
+    "wedding_desc": "Gör din stora dag oförglömlig med livemusik som skapar stämning — från ceremoni till sena nattens danser.",
+    "corporate_title": "Företagsevent",
+    "corporate_desc": "Professionell liveunderhållning som lyfter din företagsfest, afterwork eller galakväll till nästa nivå.",
+    "show_title": "Konserter",
+    "show_desc": "Energifyllda liveshower med hela banduppställningen. Perfekt för festivaler, pubar och eventhallar.",
+    "events_title": "Tidigare spelningar",
+    "contact_title": "Ta kontakt",
+    "contact_subtitle": "Nyfiken på att boka oss? Vi svarar snabbt.",
+    "contact_email": "Skicka mail",
+    "contact_instagram": "Instagram",
+    "contact_facebook": "Facebook",
+    "videos_eyebrow": "Se oss live",
+    "videos_title": "Klipp från scenen"
+  },
+  "footer": {
+    "rights": "Alla rättigheter förbehållna"
+  }
+}
