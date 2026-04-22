@@ -58,9 +58,10 @@ export function VideoHero() {
           <Image
             src="/logo/swaydaylogo_full_res_VIT.png"
             alt="SWAYDAY"
-            width={1920}
-            height={1080}
-            className="w-auto max-w-[320px] sm:max-w-[420px] md:max-w-[560px] h-auto mx-auto mb-6 drop-shadow-2xl"
+            width={1506}
+            height={203}
+            sizes="(max-width: 640px) 82vw, (max-width: 1024px) 70vw, 960px"
+            className="w-[82vw] sm:w-[70vw] md:w-[62vw] lg:w-[56vw] max-w-[960px] h-auto mx-auto mb-6 drop-shadow-2xl"
             priority
             loading="eager"
           />
@@ -72,7 +73,7 @@ export function VideoHero() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="text-lg sm:text-xl tracking-[0.3em] text-slate-300 uppercase font-body font-light mb-10"
         >
-          {t("tagline")}
+          {/* {t("tagline")} */}
         </motion.p>
 
         <motion.div

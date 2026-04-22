@@ -57,7 +57,7 @@ export function AboutSection() {
         >
           <div className="relative aspect-square rounded-2xl overflow-hidden">
             <Image
-              src="/images/band.jpg"
+              src="/images/band2.jpg"
               alt="SWAYDAY bandet"
               fill
               className="object-cover"
