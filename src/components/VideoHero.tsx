@@ -57,7 +57,7 @@ export function VideoHero() {
           transition={{ duration: 0.9, ease: "easeOut" }}
         >
           <Image
-            src="/logo/swaydaylogo_full_res_VIT.png"
+            src="https://pub-9e5c7500d8b14a3196c2f3c24474759b.r2.dev/logo/swaydaylogo_full_res_VIT.png"
             alt="SWAYDAY"
             width={1506}
             height={203}

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SWAYDAY",
     description: "Modernt liveband — bröllop, företagsevent, konserter",
-    images: ["/logo/swaydaylogo_full_res_VIT.png"],
+    images: ["https://pub-9e5c7500d8b14a3196c2f3c24474759b.r2.dev/logo/swaydaylogo_full_res_VIT.png"],
   },
 };
 
