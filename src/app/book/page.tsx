@@ -15,6 +15,8 @@ const fadeUp = {
   visible: { opacity: 1, y: 0 },
 };
 
+// Aawd
+
 const TYPE_LABELS: Record<string, string> = {
   wedding: "Bröllop & Fest",
   corporate: "Företagsevent",
