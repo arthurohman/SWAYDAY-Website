@@ -23,7 +23,8 @@ export function VideoHero() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover grayscale"
+          // className="absolute inset-0 w-full h-full object-cover grayscale"  // Optional grayscale filter for a more cinematic look
+          className="absolute inset-0 w-full h-full object-cover"
         >
           <source src={VIDEO_SRC} type="video/mp4" />
         </video>

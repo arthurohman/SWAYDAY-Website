@@ -9,26 +9,20 @@
   },
   "about": {
     "title": "Om oss",
-    "p1": "SWAYDAY är ett modernt liveband som levererar energifyllda shower med allt från popklassiker till senaste hitlåtarna. Vi skapar en stämning som håller dina gäster på dansgolvet hela kvällen.",
-    "p2": "Med en bred repertoar och passionen för musik garanterar vi en upplevelse som dina gäster sent kommer att glömma — vare sig det gäller ett intimt bröllop eller en stor scen."
+    "p1": "SWAYDAY är bandet som levererar energifyllda liveupplevelser för alla tillfällen. Medlemmarna har spelat ihop sedan 2012 och har uppträtt på scener både i USA och i Norden.", 
+    "p2": "SWAYDAY har ett dansvänligt pop-sound i sina egenskrivna låtar, och en bred repertoar av covers som sträcker sig från klassiska soullåtar till moderna pophits. Oavsett om det är en bröllopsmottagning, ett företagsevent eller en konsert, så skapar SWAYDAY en atmosfär som får alla att vilja dansa och ha kul.",
+    "p3": "Vill du boka oss? Vi har god erfarenhet av helhetslösningar och kan hjälpa till att skräddarsy en spelning som passar just ditt event. Kontakta oss så berättar vi mer!"
   },
   "spotify": {
     "title": "Lyssna på oss"
   },
-  "socials": {
-    "title": "Följ oss",
-    "subtitle": "Håll dig uppdaterad med våra senaste nyheter och spelningar"
-  },
   "book": {
     "eyebrow": "Boka oss",
-    "hero_title": "Boka SWAYDAY",
-    "hero_subtitle": "Vi spelar på bröllop, företagsevent och konserter. Hör av dig och låt oss göra din kväll oförglömlig.",
-    "wedding_title": "Bröllop",
-    "wedding_desc": "Gör din stora dag oförglömlig med livemusik som skapar stämning — från ceremoni till sena nattens danser.",
+    "hero_title": "SWAYDAY",
+    "hero_subtitle": "Vi spelar på bröllop, företagsevent och konserter. Hör av dig och låt oss göra festen!",
+    "wedding_title": "Bröllop & Fest",
     "corporate_title": "Företagsevent",
-    "corporate_desc": "Professionell liveunderhållning som lyfter din företagsfest, afterwork eller galakväll till nästa nivå.",
     "show_title": "Konserter",
-    "show_desc": "Energifyllda liveshower med hela banduppställningen. Perfekt för festivaler, pubar och eventhallar.",
     "events_title": "Tidigare spelningar",
     "contact_title": "Ta kontakt",
     "contact_subtitle": "Nyfiken på att boka oss? Vi svarar snabbt.",

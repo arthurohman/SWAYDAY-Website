@@ -50,8 +50,8 @@ const CATEGORIES = [
   {
     key: "wedding",
     folder: "wedding", // ← must match your Supabase folder name exactly
-    labelSv: "Bröllop",
-    labelEn: "Weddings",
+    labelSv: "Bröllop & Fest",
+    labelEn: "Weddings & Parties",
     accent: "#ec4899",
     glow: "rgba(236,72,153,0.15)",
     borderColor: "border-brand-pink/30",

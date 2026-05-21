@@ -67,10 +67,7 @@ export function SocialsRow() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <h2 className="font-display text-6xl md:text-7xl tracking-wide text-white mb-4">
-            {t("title")}
-          </h2>
-          <p className="text-slate-400 font-body mb-14">{t("subtitle")}</p>
+
         </motion.div>
 
         <motion.div
@@ -78,7 +75,7 @@ export function SocialsRow() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-          className="flex justify-center items-center gap-6 sm:gap-10 flex-wrap"
+          className="flex flex-wrap justify-center items-center gap-x-6 gap-y-8 sm:gap-10"
         >
           {SOCIAL_LINKS.map((link) => (
             <a
@@ -87,7 +84,7 @@ export function SocialsRow() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={link.name}
-              className="group flex flex-col items-center gap-3 cursor-pointer"
+              className="group flex flex-col items-center gap-3 cursor-pointer basis-[28%] sm:basis-auto"
             >
               <div className="w-14 h-14 rounded-full bg-brand-card border border-brand-border flex items-center justify-center text-slate-400 group-hover:text-white group-hover:border-brand-red/50 group-hover:bg-brand-red/10 transition-all duration-200">
                 {link.icon}

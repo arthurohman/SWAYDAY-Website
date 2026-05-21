@@ -41,6 +41,9 @@ export function AboutSection() {
             <p className="text-slate-400 leading-relaxed font-body">
               {t("p2")}
             </p>
+            <p className="text-slate-400 leading-relaxed font-body">
+              {t("p3")}
+            </p>
           </div>
           {/* Gradient divider */}
           <div className="mt-10 h-px w-24 bg-gradient-to-r from-brand-red to-brand-pink" />

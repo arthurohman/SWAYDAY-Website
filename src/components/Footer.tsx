@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 export function Footer() {
   const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
   const year = new Date().getFullYear();
 
   return (
@@ -17,7 +18,7 @@ export function Footer() {
             alt="SWAYDAY"
             width={1920}
             height={1080}
-            className="h-28 w-auto opacity-60 hover:opacity-100 transition-opacity duration-200"
+            className="h-8 w-auto opacity-60 hover:opacity-100 transition-opacity duration-200"
           />
         </Link>
 
@@ -30,13 +31,13 @@ export function Footer() {
             href="/"
             className="text-xs tracking-widest uppercase text-slate-500 hover:text-slate-300 transition-colors font-body"
           >
-            Hem
+            {tNav("home")}
           </Link>
           <Link
             href="/book"
             className="text-xs tracking-widest uppercase text-slate-500 hover:text-slate-300 transition-colors font-body"
           >
-            Boka oss
+            {tNav("book")}
           </Link>
         </nav>
       </div>

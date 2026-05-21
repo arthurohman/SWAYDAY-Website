@@ -6,8 +6,9 @@ import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
 import events from "@/data/events.json";
 import LiveVideoGallery from "@/components/LiveVideoGallery";
+import { SocialsRow } from "@/components/SocialsRow";
 
-const CONTACT_EMAIL = "booking@swayday.com"; // Replace with real booking email
+const CONTACT_EMAIL = "swaydaymusic@gmail.com";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -15,7 +16,7 @@ const fadeUp = {
 };
 
 const TYPE_LABELS: Record<string, string> = {
-  wedding: "Bröllop",
+  wedding: "Bröllop & Fest",
   corporate: "Företagsevent",
   show: "Konsert",
 };
@@ -32,7 +33,6 @@ export default function BookPage() {
   const cards = [
     {
       title: t("wedding_title"),
-      desc: t("wedding_desc"),
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -43,7 +43,6 @@ export default function BookPage() {
     },
     {
       title: t("corporate_title"),
-      desc: t("corporate_desc"),
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
@@ -54,7 +53,6 @@ export default function BookPage() {
     },
     {
       title: t("show_title"),
-      desc: t("show_desc"),
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
@@ -89,7 +87,7 @@ export default function BookPage() {
             <p className="text-slate-300 text-lg leading-relaxed max-w-2xl mx-auto font-body">
               {t("hero_subtitle")}
             </p>
-            <div className="mt-10">
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
                 className="inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-brand-red to-brand-pink text-white font-body font-semibold tracking-widest uppercase text-sm rounded-full hover:opacity-90 transition-opacity duration-200 shadow-lg shadow-brand-red/25 cursor-pointer"
@@ -257,6 +255,7 @@ export default function BookPage() {
           </motion.div>
         </div>
       </section> */}
+            <SocialsRow />
     </div>
   );
 }
