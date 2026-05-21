@@ -136,9 +136,6 @@ export default function BookPage() {
                 <h3 className="font-display text-4xl tracking-wide text-white mb-4">
                   {card.title}
                 </h3>
-                <p className="text-slate-500 leading-relaxed font-body text-sm max-w-xs">
-                  {card.desc}
-                </p>
               </motion.div>
             ))}
           </div>
